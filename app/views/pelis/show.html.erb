@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nombre:</strong>
+  <%= @peli.Nombre %>
+</p>
+
+<p>
+  <strong>Director:</strong>
+  <%= @peli.Director %>
+</p>
+
+<p>
+  <strong>Anio:</strong>
+  <%= @peli.Anio %>
+</p>
+
+<%= link_to 'Edit', edit_peli_path(@peli) %> |
+<%= link_to 'Back', pelis_path %>
